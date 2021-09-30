@@ -490,3 +490,20 @@ Received Import Request.
 Start importing Assets/Scenes/Game.unity using Guid(98b2f86b7d9f6b745badde6621189fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d6704d93efeda65dedf1501f7cebbc') in 0.004407 seconds
   Import took 0.007197 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 52.855747 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(e49a343f3f09b5644b7cde61a586a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(e49a343f3f09b5644b7cde61a586a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e73da2d2803a8275d3e4cf60ccbb46a') in 0.004249 seconds
+  Import took 0.006943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.356125 seconds.
+  path: Assets/Scripts/ScoreTrigger.cs
+  artifactKey: Guid(393f5d9b35bec6d4c84d282bbc090b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScoreTrigger.cs using Guid(393f5d9b35bec6d4c84d282bbc090b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68da8e6960fad91a79bfa22ea16a57e7') in 0.007403 seconds
+  Import took 0.010399 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
