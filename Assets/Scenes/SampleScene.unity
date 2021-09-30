@@ -2185,6 +2185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: B1 Red Sheet_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8797730871237527930, guid: b4375116d2a3d584eb7f372e0a82a74a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8797730871237527931, guid: b4375116d2a3d584eb7f372e0a82a74a, type: 3}
       propertyPath: m_RootOrder
       value: 0
