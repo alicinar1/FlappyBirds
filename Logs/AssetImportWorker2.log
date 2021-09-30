@@ -1,0 +1,266 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'tr' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/muham/Desktop/Work/Coding/GameDevUnity/Egzersiz/FlappyBirds
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54095
+Successfully changed project path to: C:/Users/muham/Desktop/Work/Coding/GameDevUnity/Egzersiz/FlappyBirds
+C:/Users/muham/Desktop/Work/Coding/GameDevUnity/Egzersiz/FlappyBirds
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/muham/Desktop/Work/Coding/GameDevUnity/Egzersiz/FlappyBirds/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001995 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000839 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.803 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1827 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 2.481800 ms (FindLiveObjects: 0.226700 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.085400 ms  DeleteObjects: 0.125700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird5/Bird 5 Green.png
+  artifactKey: Guid(e26a2c05e27d57549a953cfe91b2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird5/Bird 5 Green.png using Guid(e26a2c05e27d57549a953cfe91b2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9f0097968c22cbe5500475be9b61d4') in 0.151598 seconds
+  Import took 0.154575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird5/Bird 5 Black.png
+  artifactKey: Guid(5e0aa399db300624a81bd41ec10cbd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird5/Bird 5 Black.png using Guid(5e0aa399db300624a81bd41ec10cbd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd083f9141d8d8510b9e063e0d2f24e') in 0.059164 seconds
+  Import took 0.062464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird5/Bird 5 Pink.png
+  artifactKey: Guid(76bc3bf21b5e15b42bb9e34982fcfcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird5/Bird 5 Pink.png using Guid(76bc3bf21b5e15b42bb9e34982fcfcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82136bd15c6b53f3491f0506c3a9edb') in 0.048930 seconds
+  Import took 0.052331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird2/Bird 2 Blue.png
+  artifactKey: Guid(b2aa4dabd5098a44d9db709d0d3c77f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird2/Bird 2 Blue.png using Guid(b2aa4dabd5098a44d9db709d0d3c77f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996de765c03aa4fa08401248dc84e5f1') in 0.047877 seconds
+  Import took 0.050856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.976981 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird2
+  artifactKey: Guid(5086f0eae9c1a7149b5b93e32d6a13e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird2 using Guid(5086f0eae9c1a7149b5b93e32d6a13e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5df916503fef481f908bc0fff7142f0') in 0.005618 seconds
+  Import took 0.008256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039055 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird2/Bird2 Black.png
+  artifactKey: Guid(2366eae9f40af86419045ff062bfad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird2/Bird2 Black.png using Guid(2366eae9f40af86419045ff062bfad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3f1afb984a485a52db98b3b8bbf4d5') in 0.037855 seconds
+  Import took 0.041157 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 53.6 MB.
+System memory in use after: 53.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 1.992300 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.677200 ms  DeleteObjects: 0.086600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000969 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.708 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 1.803500 ms (FindLiveObjects: 0.179300 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.490600 ms  DeleteObjects: 0.087800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.547703 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac823808c8449c4f397e17b1cd816e9') in 0.117674 seconds
+  Import took 0.122529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.494291 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a596d8d2752f6e6b3a67233f3ff57a22') in 0.110602 seconds
+  Import took 0.115660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.969155 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347a128f13d2e0dc6f13b5bb68b75d10') in 0.137496 seconds
+  Import took 0.142613 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.439500 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.102600 ms MarkObjects: 1.843900 ms  DeleteObjects: 0.107100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.772695 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a3a51af470dd124dadac60f1a15c52') in 0.098929 seconds
+  Import took 0.104458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.723619 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018a7e0ae30687748c40680041af53ac') in 0.089148 seconds
+  Import took 0.093948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.366010 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e357fd60eab1e5f2dfa389ab3b371f3b') in 0.121828 seconds
+  Import took 0.126621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.225606 seconds.
+  path: Assets/2DBirds_Pack3/Scenes/Demo.unity
+  artifactKey: Guid(d5a95ae0cc2d589469b05c94583c4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Scenes/Demo.unity using Guid(d5a95ae0cc2d589469b05c94583c4dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437e211b12e811f66086535d60a80aa1') in 0.005871 seconds
+  Import took 0.008715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.041781 seconds.
+  path: Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png
+  artifactKey: Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DBirds_Pack3/Spritesheets/Bird1/B1 Red Sheet.png using Guid(17c558ddb31742c42894aa507b18c308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ddd81caf0438573e5f495e3ecbe933') in 0.120363 seconds
+  Import took 0.125230 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000921 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 1.917900 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.562200 ms  DeleteObjects: 0.106700 ms)
+
