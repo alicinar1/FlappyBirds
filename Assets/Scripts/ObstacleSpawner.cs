@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject obstacle;
     [SerializeField] private float obstacleSpawnTimer = 1f;
+    [SerializeField] private ObjectPool objectPool;
+
 
     private float timer;
-    // Start is called before the first frame update
+    
     void FixedUpdate()
     {
         timer -= Time.deltaTime;
+
         if (timer <= 0)
         {
-            var obs = Instantiate(obstacle, new Vector3(14, Random.Range(-2, 3), 0), Quaternion.identity);
+            GameObject obs = objectPool.GetObjectInPool();
+
+            obs.transform.position = new Vector3(14, Random.Range(-2, 3), 0);
 
             obs.transform.parent = transform;
 

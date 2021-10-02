@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class BirdMovement : MonoBehaviour
 {
@@ -10,11 +11,16 @@ public class BirdMovement : MonoBehaviour
     [SerializeField] private ObstacleSpawner obsSpaw;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject scoreTrigger;
+    [SerializeField] private AudioClip flap;
+    [SerializeField] private AudioClip smash;
+
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = transform.GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -22,7 +28,7 @@ public class BirdMovement : MonoBehaviour
     {
         //transform.Translate(new Vector3(0, -1 * Time.deltaTime * gravityForce, 0));
 
-        if (Input.GetMouseButtonDown(0))
+        if (Touchscreen.current.press.wasPressedThisFrame)
         {
             Flap();
         }
@@ -31,27 +37,34 @@ public class BirdMovement : MonoBehaviour
     private void Flap()
     {
         rb.AddForce(Vector2.up * flapForce);
+
+        audioSource.PlayOneShot(flap);
+
         Debug.Log("Falan");        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+            audioSource.PlayOneShot(smash);
+
             gg.GameEnd();
 
-            this.GetComponent<BirdMovement>().enabled = false;
-            
-            obsSpaw.GetComponent<ObstacleMovement>().enabled = false;
+            DisableComponents();    
+                
+    }
 
-            obsSpaw.GetComponent<ObstacleSpawner>().enabled = false;
+    private void DisableComponents()
+    {
+        this.GetComponent<BirdMovement>().enabled = false;
 
-            animator.enabled = false;
+        GetComponent<CircleCollider2D>().enabled = false;
 
-            scoreTrigger.GetComponent<ObstacleMovement>().enabled = false;
+        obsSpaw.GetComponent<ObstacleMovement>().enabled = false;
 
+        obsSpaw.GetComponent<ObstacleSpawner>().enabled = false;
 
-            //scoreTrigger.GetComponent<ObstacleMovement>().enabled = false;
+        animator.enabled = false;
 
-        
+        scoreTrigger.GetComponent<ObstacleMovement>().enabled = false;
     }
 }
